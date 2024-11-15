@@ -7,9 +7,9 @@
 
   onMount(() => {
     const map = new mapboxgl.Map({
-      container: 'map', // This should match the id of your map div
+      container: 'map', 
       style: 'mapbox://styles/mapbox/streets-v12',
-      center: [-71.09416, 42.3601], // Longitude, Latitude of Boston
+      center: [-71.09416, 42.3601], 
       zoom: 12,
       minZoom: 9,
       maxZoom: 15
